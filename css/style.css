@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, .sobreMim{
+    background-color: black;
+}
+ul {
+    display: flex;
+    width: 49%;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    height: 10vh;
+}
+
+ul > li {
+    list-style: none;
+}
+
+body{
+    color: grey;
+}
+
+.banner{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 200px;
+    font-size: 1.5rem;
+}
+.banner_title-color{
+    color: #5BCBB2;
+}
+.seta{
+    padding: 50px;
+}
+.seta_img{
+    width: 2%;
+}
+.projetos_title,  .titles{
+    color: #B3B2B2;
+    text-align: center;
+    padding: 50px;
+}
+.projetos_site{
+    display: flex;
+}
+.projetos{
+    height: 90vh;
+}
+
+.site_img{
+    width:90%;
+}
+.site_title{
+    color: #B3B2B2;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.btn{
+    padding: 20px;
+    text-align: center;
+}
+.btn_link{
+    color: #48CFAD;
+    border: 2px solid #48CFAD;
+    padding: 7px;
+    margin-top: 18px;
+    font-size: 0.87rem;
+    margin-bottom: 50px;
+
+}
+.sobreMim{
+    background-color: black;
+    text-align: center;
+}
+.sobreMim_img{
+    background-color: #ddd;
+    border-radius: 100%;
+    height: 157px;
+    object-fit: cover;
+    width: 157px;
+}
+
+.contato{
+    height: 50vh;
+}
+.contato_icons{
+    display: flex;
+    height: 10vh;
+    justify-content: space-around;
+}
+.contato_img{
+    width: 10%;    
+}
+.contato_img-icon{
+    width: 100%;
+}
+.contato_title{
+    margin-top: 50px;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    padding: 10px;
+
+}
+@media(max-width: 640px) and (min-width: 360px){
+     ul{
+        margin-left: auto;
+        margin-right: auto;   
+     } 
+     li{
+        padding: 10px;
+     }
+     h1.banner_title {
+        margin-right: auto;
+        padding: 0% 0% 0% 20%;
+        margin: -45% 0% 10% 0%;
+        font-family: 'Roboto';
+        text-align: justify;  
+    }
+     h4{
+         padding: 0% 0% 10% 0%;
+     }
+     .seta_img{
+        width: 30%;
+        margin: -20% 0% 0% 0%;       
+     }
+
+     .projetos_site{
+       display: block;
+       margin: 0 auto;
+       width: 90%; 
+       padding: 0% 0% 20% 0%;
+       text-align: center;
+    }
+    .site{
+        padding: 0% 0% 7% 0%;
+    }
+     .projetos_title{
+        font-size: 35px;
+        padding: 8%;
+    }
+    .container{
+        padding: 25px;
+    }
+
+}   .btn_link1{
+    color: white;
+    border-radius: 20px;
+    background-color: #00B7A0;
+    text-decoration: none;
+    padding: 8px 8px;   
+}
+    .projetos{
+        height: 700px;
+}
+    .site_title{
+        font-family: 'Roboto';
+        color: black;
+    }
+    .titles{
+        font-size: 30px;
+        color: white;
+    }
+    img.sobreMim_img{
+        padding: 5px;
+        margin: 0% 0% 15% 0%;
+    }
+    .btn_link{
+        font-size: 130%;
+        border-radius: 5px;
+        color:#00B7A0;
+        background-color: black;
+        text-decoration: none;
+    }
+    .sobreMim_description{
+      
+       margin: 0% 0% 5% 0%;
+    }
+    .reprograma{
+        color: purple;
+        font-weight: bold;
+        font-size: 150%;
+        padding: 0% 0% 20% 0%;
+    }
+    .contato_icons{
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
+
+    }
+    .contato_title{
+        color: grey;
+        width: 100%; 
+        height: 100%; 
+        padding: 0% 0% 15% 0%;
+        text-align: center;
+        text-align: center;
+    }
+    .contato{
+        height: 550px;
+    }    
+    footer{
+        display: none;
+    }
+
+
+    
+    
+
+    
+  
+   
